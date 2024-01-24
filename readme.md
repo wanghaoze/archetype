@@ -15,5 +15,8 @@ mvn install
 ```
 3. 新建应用
 ```shell
-mvn archetype:generate -DgroupId=org.marsempire -DartifactId=demo-web -Dversion=1.0.0-SNAPSHOT -Dpackage=org.marsempire -DarchetypeArtifactId=cola-framework-archetype-web -DarchetypeGroupId=com.alibaba.cola -DarchetypeVersion=4.4.0-SNAPSHOT
+# 进入一个有pom管理的仓库
+cd archetype
+mvn archetype:generate -DgroupId=org.marsempire -DartifactId=demo-wb -Dversion=1.0.0-SNAPSHOT -Dpackage=org.marsempire -DarchetypeArtifactId=cola-framework-archetype-web -DarchetypeGroupId=com.alibaba.cola -DarchetypeVersion=4.4.0-SNAPSHOT
 ```
+
